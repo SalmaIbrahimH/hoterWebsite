@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <link rel="stylesheet" href="css/homePage.css" />
+        <link rel="stylesheet" href="css/bookingform.css" />
+
+        <title>Dream Lodge Hotel / Booking form</title>
+      </head>
+<body> 
+    <div class="nav">
+        <div class="nav-header">
+        <a href="/homePage.html">   <img src="imges/logo.png" id="logo"></a>
+     </div>
+     
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+  
+        <div class="nav-links">
+          <a href="/homePage.html" target="_self">Home</a>
+  
+          <a href="/generalInfo.html" target="_self">General Information</a>
+          <a href="/hotelInformation.html" target="_self"
+            >Hotel Information</a>
+          
+          <a href="/bookingForm.html" target="_self"
+            >Booking Form</a
+          >
+          <a href="/contactus.html" target="_self"
+          >Contact Us</a
+        >
+        </div>
+      </div>
+<form action="http://norton.open.ac.uk/reflect.php"method="post" name="form1"> 
+  <h1>Booking Form</h1>
+
+<p>
+Customer name:</p>  
+<input type="text" name="Customer Name" size="30" maxlength="30" />
+
+<p>
+Chek-in date : </p> 
+<input type="date" id="Chek-in" size="30" maxlength="30" />
+
+ 
+<p>
+Chek-out date : </p> 
+ <input type="date" id="Chek-out" size="30" maxlength="30" />
+ 
+
+ <p> Number of people:</p>
+    <input type="number" id="quantity" name="quantity" min="1" max="10">
+
+
+ 
+ <p>
+ Contact number:  </p>   
+ <input type="tel" name="Contact number" size="30" maxlength="30" />
+
+
+ <p>
+    Email: </p>   
+  <input type="email" id="email" name="email">
+        
+       
+
+   
+
+<p>
+Comment:
+</p>
+<textarea name="comments" cols="40" rows="10">
+</textarea>
+
+<input style="margin-top: 15px;" type="submit" name="submit" value="Submit" />
+
+</body>
+</html>

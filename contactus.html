@@ -2,12 +2,42 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="css/homePage.css" />
     <link rel="stylesheet" href="css/hotelInformation.css" />
+    <link rel="stylesheet" href="css/bookingform.css" />
 
     <title>Dream Lodge Hotel / contact us</title>
 </head>
 
 <body>
+    <div class="nav">
+        <div class="nav-header">
+        <a href="/homePage.html">   <img src="imges/logo.png" id="logo"></a>
+     </div>
+     
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+  
+        <div class="nav-links">
+          <a href="/homePage.html" target="_self">Home</a>
+  
+          <a href="/generalInfo.html" target="_self">General Information</a>
+          <a href="/hotelInformation.html" target="_self"
+            >Hotel Information</a>
+          
+          <a href="/bookingForm.html" target="_self"
+            >Booking Form</a
+          >
+          <a href="/contactus.html" target="_self"
+          >Contact Us</a
+        >
+        </div>
+      </div>
     <section class="address">
         <h1>Address</h1>
         <div
@@ -49,6 +79,32 @@
             </div>
         </div>
     </section>
+    <section>
+        <h1>Send us a message:</h1>
+
+        <form method="post" name="form2">
+ 
+        <p>
+        Full name:         </p>
+
+        <input type="text" name="Customer Name" size="30" maxlength="30" />
+        
+        
+        <p>
+        Email:     </p>
+         <input type="email" id="email" name="email">
+     
+        
+        
+        <p>
+         Message:        </p>
+ 
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+
+      <input style="margin-top: 15px;" type="submit" name="submit" value="Send" />
+
+        </form></section>
+  
 </body>
 
 </html>
